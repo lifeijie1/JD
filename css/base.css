@@ -1,0 +1,15 @@
+/* 全局样式 设置整个页面公共的样式 */
+/* 去掉元素自带的外边距和内边距 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td{margin: 0;padding: 0;}
+/* 去掉项目符号 */
+li{list-style-type:none;}
+/* 去掉下划线 */
+a{text-decoration: none;}
+/* 去掉边框 */
+img,input,button{border:none;vertical-align:middle;}
+body{text-align: center;font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
